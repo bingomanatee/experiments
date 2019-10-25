@@ -1,0 +1,31 @@
+{
+  "name": "experiments",
+  "version": "2.0.5",
+  "description": "HTML experiments",
+  "main": "index.js",
+  "repository": "https://github.com/bingomanatee/experiments",
+  "author": "David Edelhart",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@mdx-js/loader": "^1.5.1",
+    "@next/mdx": "^9.1.1",
+    "@svgdotjs/svg.js": "^3.0.13",
+    "@wonderlandlabs/looking-glass-engine": "^2.0.1",
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-sizeme": "^2.6.8",
+    "styled-components": "^4.3.2",
+    "uuid": "^3.3.3"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.6",
+    "tsv": "^0.2.0"
+  }
+}
